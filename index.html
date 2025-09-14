@@ -27,8 +27,16 @@
         /* Container styling for proper bracket placement */
         .under-hader.another, .table, .div-block-6, .div-block-19, .second-text, .third-text, .fourth-block, .div-block-14 {
             position: relative;
-            padding-left: 25px;
-            padding-right: 25px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+        /* Mobile spacing fixes for screens smaller than 500px - ONLY div-block-14 */
+        @media screen and (max-width: 500px) {
+            .div-block-14 {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
         }
         
         /* Ensure text blocks don't interfere with bracket positioning */
@@ -53,6 +61,12 @@
             padding: 0 !important;
             display: inline;
         }
+        
+        /* Reduce gap between heder-sustainability and text-block */
+        /* .div-block-11 {
+            justify-content: flex-start !important;
+            gap: 2vw !important;
+        } */
     </style>
     <title>Poland_chem</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -286,22 +300,21 @@
                             <h3 data-w-id="200c5c3e-de61-f8ce-9755-3afec79518f3" style="display: none;"
                                 class="heading-3" data-en="Small steps, real impact" data-pl="Małe kroki, realny wpływ">Small steps, real impact</h3>
                             <h3 data-w-id="92e3d0d6-92b6-3655-15b4-67917aa33746" style="display: none;"
-                                class="second-heder" data-en="Responsible Care, every day" data-pl="Odpowiedzialna opieka, każdego dnia">Responsible Care, every day</h3>
+                                class="second-heder" data-en="Responsible Care, every day" data-pl="Odpowiedzialna opieka">Responsible Care, every day</h3>
                             <h3 data-w-id="5ec0ca55-dabb-c450-037c-28ec94af653e" style="display: block;"
                                 class="third-heder" data-en="Ethical sourcing" data-pl="Etyczne źródło">Ethical sourcing</h3>
                             <h3 data-w-id="dafe74e9-f6d1-1024-b468-d99dcb7b7ab9" style="display: none;"
                                 class="fourh-heder" data-en="Customer choice" data-pl="Wybór klienta">Customer choice</h3>
                         </div>
                         <div class="text-block">
-                            <div data-w-id="6b946bac-f328-d120-d4e1-b10b702d0e1b" style="display: none;"
-                                class="div-block-19">
+                            <div data-w-id="6b946bac-f328-d120-d4e1-b10b702d0e1b" style="display: none;" class="div-block-19">
                                 <div class="text-block-11 cursors" data-en=" We embed sustainability into daily operations. We prioritize responsible local suppliers, offer a packaging take-back option, and encourage team ideas that save resources without compromising quality. " data-pl=" Wdrażamy zrównoważony rozwój w codzienne operacje. Priorytetowo traktujemy odpowiedzialnych lokalnych dostawców, oferujemy opcję zwrotu opakowań i zachęcamy zespołowe pomysły, które oszczędzają zasoby bez kompromisowania jakości. ">
                                     We embed sustainability into daily operations. We prioritize responsible local suppliers, offer a packaging take-back option, and encourage team ideas that save resources without compromising quality.
                                 </div>
                             </div>
                             <div data-w-id="379dccf5-406f-89cd-7c4a-218dc494e375" style="display: none;"
                                 class="second-text">
-                                <div class="second-text cursors" data-en=" We adhere to REACH/CLP/GHS requirements, provide up-to-date SDS/TDS, label products, and train our personnel. We also ensure compliance and promote workplace safety. " data-pl=" Przestrzegamy wymagań REACH/CLP/GHS, dostarczamy aktualne karty charakterystyki (SDS/TDS), etykietujemy produkty i szkolimy personel. Dbamy również o zgodność z przepisami oraz promujemy bezpieczeństwo w miejscu pracy. ">
+                                <div class="second-text cursors" data-en=" We adhere to REACH/CLP/GHS requirements, provide up-to-date SDS/TDS, label products, and train our personnel. We also ensure compliance and promote workplace safety. " data-pl=" Przestrzegamy wymagań REACH/CLP/GHS, dostarczamy aktualne karty charakterystyki (SDS/TDS), etykietujemy produkty i szkolimy personel. Zapewniamy zgodność z przepisami i bezpieczeństwo pracy. ">
                                     We adhere to REACH/CLP/GHS requirements, provide up-to-date SDS/TDS, label products, and train our personnel. We also ensure compliance and promote workplace safety.
                                 </div>
                             </div>
