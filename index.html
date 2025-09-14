@@ -17,20 +17,20 @@
             font-size: 1.2em;
             color: #ff6b35;
         }
-        
+
         .cursors::after {
             content: ']';
             font-size: 1.2em;
             color: #ff6b35;
         }
-        
+
         /* Container styling for proper bracket placement */
         .under-hader.another, .table, .div-block-6, .div-block-19, .second-text, .third-text, .fourth-block, .div-block-14 {
             position: relative;
             padding-left: 0px;
             padding-right: 0px;
         }
-        
+
         /* Mobile spacing fixes for screens smaller than 500px - ONLY div-block-14 */
         @media screen and (max-width: 500px) {
             .div-block-14 {
@@ -38,37 +38,48 @@
                 padding-right: 0 !important;
             }
         }
-        
+
         /* Ensure text blocks don't interfere with bracket positioning */
         .text-block, .text-block-3, .text-block-5, .text-block-11, .contacts-descript {
             display: block;
             width: 100%;
         }
-        
+
         /* Value blocks specific styling */
         .blocks-wrapper .div-block-7 .div-block-18 .div-block-8 {
             display: flex;
             align-items: flex-start;
         }
-        
+
         .blocks-wrapper .div-block-7 .div-block-18 .text-block-12 {
             margin: 10px 0;
         }
-        
+
         /* Ensure text-span-11 has no extra spacing */
         .text-span-11 {
             margin: 0 !important;
             padding: 0 !important;
             display: inline;
         }
-        
+
         /* Reduce gap between heder-sustainability and text-block */
         /* .div-block-11 {
             justify-content: flex-start !important;
             gap: 2vw !important;
         } */
+
+        /* Disable horizontal scroll */
+        html, body {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        .page-wrapper {
+            overflow-x: hidden;
+            max-width: 100%;
+        }
     </style>
-    <title>Poland_chem</title>
+    <title>ISS-chem</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="Webflow" name="generator">
     <link href="./Poland_chem_files/poland-chem.webflow.shared.5f95d4e9d.css" rel="stylesheet" type="text/css">
@@ -121,13 +132,15 @@
                             data-autoplay="true" data-loop="true" data-wf-ignore="true"
                             data-w-id="b90ca5b4-9e86-d42f-d8af-1b34f4369364"
                             class="background-video w-background-video w-background-video-atom"
-                            style="will-change: width, height; width: 56vw;"><video
-                                id="b90ca5b4-9e86-d42f-d8af-1b34f4369364-video" autoplay="" loop=""
+                            style="will-change: width, height; width: 56vw;">
+                            <video
+                                id="b90ca5b4-9e86-d42f-d8af-1b34f4369364-video" autoplay="true" loop="true"
                                 muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                                 <source
                                     src="./Poland_chem_files/1st.mp4"
                                     data-wf-ignore="true">
-                            </video></div>
+                            </video>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -336,43 +349,48 @@
                         <div data-video-urls="./Poland_chem_files/2nd.mp4"
                             data-autoplay="true" data-loop="true" data-wf-ignore="true"
                             data-w-id="a64320be-2797-ece4-6a04-4524ab6e8c27" style="display: block;"
-                            class="first w-background-video w-background-video-atom"><video
-                                id="a64320be-2797-ece4-6a04-4524ab6e8c27-video" autoplay="" loop=""
+                            class="first w-background-video w-background-video-atom">
+                            <video id="a64320be-2797-ece4-6a04-4524ab6e8c27-video" autoplay="true" loop="true"
                                 muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                                 <source
                                     src="./Poland_chem_files/2nd.mp4"
                                     data-wf-ignore="true">
-                            </video></div>
+                            </video>
+                        </div>
                         <div data-video-urls="./Poland_chem_files/3d.mp4"
                             data-autoplay="true" data-loop="true" data-wf-ignore="true"
                             data-w-id="4c8824ba-a8c6-4075-2aab-5ca3c54744a7" style="display: none;"
-                            class="second w-background-video w-background-video-atom"><video
-                                id="4c8824ba-a8c6-4075-2aab-5ca3c54744a7-video" autoplay="" loop=""
+                            class="second w-background-video w-background-video-atom">
+                            <video id="4c8824ba-a8c6-4075-2aab-5ca3c54744a7-video" autoplay="true" loop="true"
                                 muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                                 <source
                                     src="./Poland_chem_files/3d.mp4"
                                     data-wf-ignore="true">
-                            </video></div>
+                            </video>
+                        </div>
                         <div data-video-urls="./Poland_chem_files/4d.mp4"
                             data-autoplay="true" data-loop="true" data-wf-ignore="true"
                             data-w-id="660caf62-cd34-6b6e-6f1b-88160835308a" style="display: none;"
                             class="third w-background-video w-background-video-atom"><video
-                                id="660caf62-cd34-6b6e-6f1b-88160835308a-video" autoplay="" loop=""
+                                id="660caf62-cd34-6b6e-6f1b-88160835308a-video" autoplay="true" loop="true"
                                 muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                                 <source
                                     src="./Poland_chem_files/4d.mp4"
                                     data-wf-ignore="true">
-                            </video></div>
+                            </video>
+                        </div>
                         <div data-video-urls="./Poland_chem_files/5d.mp4"
                             data-autoplay="true" data-loop="true" data-wf-ignore="true"
                             data-w-id="cd4eb9c4-f359-3022-6cb6-577b30a210e3" style="display: none;"
-                            class="hhhhh fourtgh w-background-video w-background-video-atom"><video
-                                id="cd4eb9c4-f359-3022-6cb6-577b30a210e3-video" autoplay="" loop=""
+                            class="hhhhh fourtgh w-background-video w-background-video-atom">
+                            <video
+                                id="cd4eb9c4-f359-3022-6cb6-577b30a210e3-video" autoplay="true" loop="true"
                                 muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
                                 <source
                                     src="./Poland_chem_files/5d.mp4"
                                     data-wf-ignore="true">
-                            </video></div>
+                            </video>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -400,8 +418,8 @@
                     <div class="div-block-13">
                         <div class="adress"><span class="text-span-15" data-en="Address:" data-pl="Adres:">Adress:</span><br>ul. Aleja Gen. Antoniego
                             Chruściela „Montera" 88A, 04-412, Warszawa</div>
-                        <div class="adress phone"><span class="text-span-15" data-en="Phone:" data-pl="Telefon:">Phone:</span><br>+48484848484</div>
-                        <div class="adress"><span class="text-span-15" data-en="E-mail:" data-pl="E-mail:">E-mail:</span><br>Iss_chem@gmail.com</div>
+                        <div class="adress phone"><span class="text-span-15" data-en="Phone:" data-pl="Telefon:">Phone:</span><br>+48535432477</div>
+                        <div class="adress"><span class="text-span-15" data-en="E-mail:" data-pl="E-mail:">E-mail:</span><br>andrii.piskun@isschem.pl</div>
                     </div>
                 </div>
             </div>
