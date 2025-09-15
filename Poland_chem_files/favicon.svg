@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Шар_2" data-name="Шар 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.2 34.29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #090d19;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill: #090d19;
+      }
+    </style>
+  </defs>
+  <g id="_Шар_1-2" data-name="Шар 1">
+    <g>
+      <path class="cls-2" d="M20.56,8.15h1.45v1.16h-1.45v-1.16ZM22.01,9.6v7.25h-1.45v-7.25h1.45Z"/>
+      <path class="cls-2" d="M34.23,11.05h-7.25v1.45h7.25v3.63l-.73.73h-7.98v-1.45h7.25v-1.45h-7.25v-3.63l.73-.73h7.98v1.45Z"/>
+      <path class="cls-2" d="M46.46,11.05h-7.25v1.45h7.25v3.63l-.73.73h-7.98v-1.45h7.25v-1.45h-7.25v-3.63l.73-.73h7.98v1.45Z"/>
+      <path class="cls-2" d="M19.52,23.14h-7.25v4.35h7.25v1.45h-7.98l-.73-.73v-5.8l.73-.73h7.98v1.45Z"/>
+      <path class="cls-2" d="M31.75,28.94h-1.45v-1.74h-5.8v1.74h-1.45v-7.25h1.45v4.06h5.8v-4.06h1.45v7.25Z"/>
+      <path class="cls-2" d="M35.27,23.14v-1.45h8.7v1.45h-7.25M36.72,24.59h4.93v1.45h-4.93v1.45h7.25v1.45h-8.7v-4.35"/>
+      <path class="cls-2" d="M56.2,28.94h-1.45v-4.55l-2.9,4.55-.87-1.35-2.03-3.21v4.55h-1.45v-7.25h1.45l2.9,4.55,2.9-4.55h1.45v7.25Z"/>
+    </g>
+    <polyline class="cls-1" points="31.02 25.74 31.02 33.54 .75 33.54 .75 .75 31.02 .75 31.02 6.23"/>
+  </g>
+</svg>
